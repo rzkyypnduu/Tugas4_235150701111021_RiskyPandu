@@ -6,7 +6,7 @@ public class TextBook extends Book implements BookOperations {
         this.subject = subject;
     }
 
-    @Override
+
     public void borrowBook() {
         if (!isBorrowed()) {
             setBorrowed(true);
@@ -16,7 +16,7 @@ public class TextBook extends Book implements BookOperations {
         }
     }
 
-    @Override
+
     public void returnBook() {
         if (isBorrowed()) {
             setBorrowed(false);

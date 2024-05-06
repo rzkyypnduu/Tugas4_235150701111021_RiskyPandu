@@ -6,7 +6,7 @@ public class Novel extends Book implements BookOperations {
         this.genre = genre;
     }
 
-    @Override
+  
     public void borrowBook() {
         if (!isBorrowed()) {
             setBorrowed(true);
@@ -16,7 +16,7 @@ public class Novel extends Book implements BookOperations {
         }
     }
 
-    @Override
+
     public void returnBook() {
         if (isBorrowed()) {
             setBorrowed(false);
