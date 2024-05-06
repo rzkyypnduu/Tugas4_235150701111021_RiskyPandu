@@ -29,7 +29,7 @@ public class TextBook extends Book implements BookOperations {
     @Override
     public void displayInfo(){
         super.displayInfo();
-        System.out.println("Category\t: " + subject);
+        System.out.println("Subject\t\t: " + subject);
         System.out.println();
     }
 }

@@ -29,7 +29,7 @@ public class Novel extends Book implements BookOperations {
     @Override
     public void displayInfo(){
         super.displayInfo();
-        System.out.println("Category\t: " + genre);
+        System.out.println("Genre\t\t: " + genre);
         System.out.println();
     }
 }
