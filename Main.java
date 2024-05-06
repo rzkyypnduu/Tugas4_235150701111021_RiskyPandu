@@ -10,12 +10,12 @@ public class Main {
         textbook.displayInfo();
         novel.displayInfo();
         magazine.displayInfo();
-        
+
         
         System.out.println("-----Borrowing and Returning Books------");
         textbook.borrowBook();
         magazine.borrowBook();
         textbook.returnBook();
-        novel.returnBook(); // Trying to return a novel that was not borrowed
+        novel.returnBook(); 
     }
 }
