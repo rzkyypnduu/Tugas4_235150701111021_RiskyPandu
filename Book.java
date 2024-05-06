@@ -43,10 +43,9 @@ public class Book {
     }
 
     public void displayInfo() {
-        System.out.println("Title: " + title);
-        System.out.println("Author: " + author);
-        System.out.println("Year: " + year);
-        System.out.println("Borrowed: " + borrowed);
-        System.out.println();
+        System.out.println("Title\t\t: " + title);
+        System.out.println("Author\t\t: " + author);
+        System.out.println("Year\t\t: " + year);
+        System.out.println("Borrowed\t: " + borrowed);
     }
 }

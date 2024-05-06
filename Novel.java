@@ -25,4 +25,11 @@ public class Novel extends Book implements BookOperations {
             System.out.println("Novel: " + getTitle() + " was not borrowed.");
         }
     }
+    
+    @Override
+    public void displayInfo(){
+        super.displayInfo();
+        System.out.println("Category\t: " + genre);
+        System.out.println();
+    }
 }

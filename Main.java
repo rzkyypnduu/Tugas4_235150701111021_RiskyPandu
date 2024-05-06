@@ -10,7 +10,7 @@ public class Main {
         textbook.displayInfo();
         novel.displayInfo();
         magazine.displayInfo();
-
+        
         
         System.out.println("-----Borrowing and Returning Books------");
         textbook.borrowBook();

@@ -1,3 +1,5 @@
+
+
 public class Magazine extends Book implements BookOperations {
     private String category;
 
@@ -25,4 +27,12 @@ public class Magazine extends Book implements BookOperations {
             System.out.println("Magazine: " + getTitle() + " was not borrowed.");
         }
     }
+
+    @Override
+    public void displayInfo(){
+        super.displayInfo();
+        System.out.println("Category\t: " + category);
+        System.out.println();
+    }
+
 }
