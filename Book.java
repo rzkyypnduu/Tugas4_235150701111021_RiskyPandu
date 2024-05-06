@@ -44,7 +44,6 @@ public class Book {
 
     public void displayInfo() {
         System.out.println("Title: " + title);
-        System.out.println();
         System.out.println("Author: " + author);
         System.out.println("Year: " + year);
         System.out.println("Borrowed: " + borrowed);
